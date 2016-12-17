@@ -15,4 +15,8 @@ public class MeshStruct extends LinkedList<BasicCell> {
 		// TODO Auto-generated constructor stub
 	}
 	
+	void printSize() {
+		System.out.println("Ok ovo je velicina.. " + this.size());
+	}
+	
 }
